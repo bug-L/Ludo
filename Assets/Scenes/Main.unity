@@ -3594,6 +3594,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470900122}
   m_CullTransparentMesh: 1
+--- !u!1 &1580925908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1580925910}
+  - component: {fileID: 1580925909}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1580925909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580925908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d11461b733cc948b7bd8dbfbaab7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CellPositionExporter
+  cells:
+  - {fileID: 516400680}
+  - {fileID: 2020392969}
+  - {fileID: 2139725763}
+  - {fileID: 742983418}
+  - {fileID: 1990049196}
+  - {fileID: 347240970}
+  - {fileID: 615442366}
+  - {fileID: 1171516347}
+  - {fileID: 554199229}
+  - {fileID: 813700501}
+  - {fileID: 144515126}
+  - {fileID: 1044070560}
+  - {fileID: 1745826523}
+  - {fileID: 2020084132}
+  - {fileID: 1470900123}
+  - {fileID: 281597274}
+  - {fileID: 1739520824}
+  - {fileID: 827578116}
+  - {fileID: 469474058}
+  - {fileID: 344748969}
+  - {fileID: 1298360592}
+  - {fileID: 1450155433}
+  - {fileID: 1206452771}
+  - {fileID: 656393535}
+  - {fileID: 1612673284}
+  - {fileID: 340830440}
+  - {fileID: 473924907}
+  - {fileID: 150599618}
+  - {fileID: 146772111}
+  - {fileID: 1928286468}
+  - {fileID: 1956387270}
+  - {fileID: 734359657}
+  - {fileID: 1153945014}
+  - {fileID: 1986921319}
+  - {fileID: 1133744832}
+  - {fileID: 116203534}
+  - {fileID: 495317958}
+  - {fileID: 700682603}
+  - {fileID: 1685334519}
+  - {fileID: 1949166540}
+  - {fileID: 1088329107}
+  - {fileID: 201866829}
+  - {fileID: 933555646}
+  - {fileID: 1435253092}
+  - {fileID: 576571632}
+  - {fileID: 809593560}
+  - {fileID: 212720876}
+  - {fileID: 79590165}
+  - {fileID: 1641966091}
+  - {fileID: 1760204623}
+  - {fileID: 1656575197}
+  - {fileID: 1086634038}
+--- !u!4 &1580925910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580925908}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.14927, y: 0.05271, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1612673283
 GameObject:
   m_ObjectHideFlags: 0
@@ -5120,3 +5217,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 697949903}
   - {fileID: 971994482}
+  - {fileID: 1580925910}
